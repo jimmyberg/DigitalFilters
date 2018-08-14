@@ -171,10 +171,10 @@ public:
 	 * @param[in]  newOutput  The new output
 	 */
 	void configOutput(double newOutput){
-		for(auto it : x){
+		for(auto& it : x){
 			it = newOutput;
 		}
-		for(auto it : y){
+		for(auto& it : y){
 			it = newOutput;
 		}
 	}
