@@ -1,5 +1,5 @@
-#ifndef _LOWPASSFILTER_H_
-#define _LOWPASSFILTER_H_
+#ifndef _DIGITAL_FILTERS_H_
+#define _DIGITAL_FILTERS_H_
 
 #include <stdexcept>
 #include <cmath>
